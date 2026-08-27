@@ -1,13 +1,8 @@
 interface:
-  display_name: Finanzas Sommos
-  short_description: Opera y mantiene el workflow financiero de Sommos.
-  brand_color: '#4D0B95'
-  default_prompt: Usa la skill Finanzas Sommos para revisar o modificar el workflow
-    financiero preservando trazabilidad y automatizaciones.
+  display_name: "Finanzas Sommos"
+  short_description: "Opera y mantiene el workflow financiero de Sommos."
+  brand_color: "#4D0B95"
+  default_prompt: "Usa $finanzas-sommos para revisar o modificar el workflow financiero de Sommos, preservando trazabilidad, conciliación y automatizaciones."
+
 policy:
-  products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
   allow_implicit_invocation: true
